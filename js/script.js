@@ -15,7 +15,7 @@ gsap.to(".pentagon",{
     scrollTrigger:{
         scrub:1
     },
-    y:-300
+    y:-200
 })
 gsap.to(".textOne",{
     scrollTrigger:{
@@ -27,8 +27,7 @@ gsap.to(".textTwo",{
     scrollTrigger:{
         scrub:1
     },
-    y:300,
-    rotation:-5
+    y:300
 })
 gsap.to(".letter_a",{
     scrollTrigger:{
