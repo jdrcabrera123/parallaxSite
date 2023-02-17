@@ -1,0 +1,32 @@
+gsap.to(".circle",{
+    scrollTrigger:{
+        scrub:1
+    },
+    scale:3
+})
+gsap.to(".square",{
+    scrollTrigger:{
+        scrub:1
+    },
+    scale:4,
+    
+})
+gsap.to(".pentagon",{
+    scrollTrigger:{
+        scrub:1
+    },
+    y:-300
+})
+gsap.to(".textOne",{
+    scrollTrigger:{
+        scrub:1
+    },
+    x:20
+})
+gsap.to(".textTwo",{
+    scrollTrigger:{
+        scrub:1
+    },
+    y:200,
+    rotation:-5
+})
