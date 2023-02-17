@@ -27,6 +27,13 @@ gsap.to(".textTwo",{
     scrollTrigger:{
         scrub:1
     },
-    y:200,
+    y:300,
+    rotation:-5
+})
+gsap.to(".letter_a",{
+    scrollTrigger:{
+        scrub:1
+    },
+    x:350,
     rotation:-5
 })
