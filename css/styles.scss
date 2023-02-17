@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 22px;
-  font-family: "Fondamento", cursive;
+  font-size: 24px;
+  font-family: 'Forum', cursive;
+  line-height: 1.5;
 }
 .mainSection {
   //   &.active {
@@ -56,7 +57,11 @@
           left: 0;
           width: 100%;
           height: 250px;
-          background: linear-gradient(to top, rgba(145, 229, 255, 0.174), transparent);
+          background: linear-gradient(
+            to top,
+            rgba(145, 229, 255, 0.174),
+            transparent
+          );
         }
         .circle {
           position: absolute;
@@ -111,14 +116,32 @@
           opacity: 0.1;
           // z-index: -4;
         }
-       
       }
       .three {
-        background-color: blue;
-
+        background-color: white;
+        position: relative;
         width: 100%;
         height: 100vh;
         padding: 20%;
+        overflow: hidden;
+        .letter_e {
+          position: absolute;
+          top: 10%;
+          right: 0;
+          width: 150px;
+
+          opacity: 0.1;
+          // z-index: -4;
+        }
+        .letter_i {
+          position: absolute;
+          bottom: 10%;
+          left: 10%;
+          width: 150px;
+
+          opacity: 0.1;
+          // z-index: -4;
+        }
       }
       .four {
         background-color: green;
