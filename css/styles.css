@@ -92,7 +92,7 @@
   left: 0;
   width: 100%;
   height: 250px;
-  background: linear-gradient(to top, rgb(164, 160, 235), transparent);
+  background: linear-gradient(to top, rgb(255, 255, 255), transparent);
 }
 .mainSection .main .sectionOne .two .letter_a {
   position: absolute;
@@ -100,9 +100,6 @@
   right: 0;
   width: 450px;
   opacity: 0.5;
-}
-.mainSection .main .sectionOne .two p {
-  color: white;
 }
 .mainSection .main .sectionOne .three {
   background-color: blue;
