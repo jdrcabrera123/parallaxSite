@@ -48,7 +48,7 @@ gsap.to(".letter_i",{
     scrollTrigger:{
         scrub:1
     },
-    scale:2,
+    scale:1.5,
     x:150,
     y:-200
 })
