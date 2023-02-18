@@ -52,3 +52,19 @@ gsap.to(".letter_i",{
     x:150,
     y:-200
 })
+gsap.to(".letter_o",{
+    scrollTrigger:{
+        scrub:1
+    },
+    scale:1.5,
+    x:-50,
+    y:-300
+})
+gsap.to(".letter_u",{
+    scrollTrigger:{
+        scrub:4
+    },
+    scale:1.2,
+    rotation:20
+    
+})
